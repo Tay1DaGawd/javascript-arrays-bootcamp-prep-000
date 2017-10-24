@@ -20,14 +20,14 @@ function accessElementInArray(array, index) {
   return array[2]
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift
+  array.shift(0)
   return array
 }
 function removeElementFromBeginningOfArray(array) {
-  return array.slice()
+  return array.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  array.pop()
+  array.pop(-1)
   return array
 }
 function removeElementFromEndOfArray(array) {
