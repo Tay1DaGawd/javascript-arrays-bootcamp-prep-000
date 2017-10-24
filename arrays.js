@@ -15,7 +15,8 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element)
   return array
 }
-index = 2
+var array = [1, 2, 3]
+var index = 2
 function accessElementInArray(array, index) {
   return console.log(array[index])
 }
