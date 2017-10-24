@@ -1,7 +1,6 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 const array = [1]
 element = "foo"
-const arrayone = [1, 2, 3]
 index = 2
 function addElementToBeginningOfArray(array, element) {
   return ([element, ...array])
@@ -18,5 +17,6 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 function accessElementInArray(array, index) {
-  return console.log(arrayone[2])
+  var array = [1, 2, 3]
+  return console.log(array[2])
 }
